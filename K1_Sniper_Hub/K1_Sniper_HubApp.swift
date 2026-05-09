@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct K1_Sniper_HubApp: App {
+    // AppDelegate（Firebase + FCM + プッシュ通知）を SwiftUI ライフサイクルに接続
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+
     var body: some Scene {
         WindowGroup {
             ContentView()

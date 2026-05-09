@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EB6AA4A82F4C4BA30061D95F /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = EB6AA4A72F4C4BA30061D95F /* FirebaseCore */; };
 		EB6AA4AA2F4C4BA30061D95F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EB6AA4A92F4C4BA30061D95F /* FirebaseFirestore */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 			files = (
 				EB6AA4A82F4C4BA30061D95F /* FirebaseCore in Frameworks */,
 				EB6AA4AA2F4C4BA30061D95F /* FirebaseFirestore in Frameworks */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +76,7 @@
 			packageProductDependencies = (
 				EB6AA4A72F4C4BA30061D95F /* FirebaseCore */,
 				EB6AA4A92F4C4BA30061D95F /* FirebaseFirestore */,
+
 			);
 			productName = K1_Sniper_Hub;
 			productReference = EB6AA4962F4C41440061D95F /* K1_Sniper_Hub.app */;
@@ -266,7 +269,9 @@
 				DEVELOPMENT_TEAM = H53CYTV8CK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "K1 SNIPER";
+				INFOPLIST_KEY_CFBundleDisplayName = "K1 QuantAgent";
+				INFOPLIST_KEY_NSAppTransportSecurity = "{ NSAllowsArbitraryLoads = YES; NSAllowsArbitraryLoadsInWebContent = YES; }";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "K1 QuantAgent のローカル開発サーバーへ接続します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,7 +304,9 @@
 				DEVELOPMENT_TEAM = H53CYTV8CK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "K1 SNIPER";
+				INFOPLIST_KEY_CFBundleDisplayName = "K1 QuantAgent";
+				INFOPLIST_KEY_NSAppTransportSecurity = "{ NSAllowsArbitraryLoads = YES; NSAllowsArbitraryLoadsInWebContent = YES; }";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "K1 QuantAgent のローカル開発サーバーへ接続します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -367,6 +374,7 @@
 			package = EB6AA4A62F4C4BA30061D95F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
 		};
+
 /* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB6AA48E2F4C41440061D95F /* Project object */;
