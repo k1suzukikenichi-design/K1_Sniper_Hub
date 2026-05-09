@@ -18,7 +18,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 // MARK: - ContentView
 
 struct ContentView: View {
-    private let quantAgentURL = URL(string: "http://192.168.0.57:5001/demo")!
+    private let quantAgentURL = URL(string: "https://glider-thirsty-cursor.ngrok-free.dev/demo")!
 
     var body: some View {
         ZStack {
